@@ -31,7 +31,7 @@ function getProperty(nodes) {
   return propertys;
 }
 
-export default (options = {}) => {
+const plugin = (options = {}) => {
   options = {
     atRules: [...new Set(['for', 'if', 'else', 'each', 'mixin', 'custom-media', ...options.atRules || ''])],
     variables: {...options.variables},
@@ -66,4 +66,6 @@ export default (options = {}) => {
   };
 };
 
-export const postcss = true;
+plugin.postcss = true;
+
+export default plugin;

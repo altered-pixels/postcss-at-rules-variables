@@ -32,6 +32,9 @@ importers:
       '@vitest/coverage-v8':
         specifier: 2.0.5
         version: 2.0.5(vitest@2.0.5(@types/node@22.1.0))
+      babel-plugin-add-module-exports:
+        specifier: 1.0.4
+        version: 1.0.4
       babel-preset-minify:
         specifier: 0.5.2
         version: 0.5.2
@@ -1203,6 +1206,9 @@ packages:
 
   babel-helper-to-multiple-sequence-expressions@0.5.0:
     resolution: {integrity: sha512-m2CvfDW4+1qfDdsrtf4dwOslQC3yhbgyBFptncp4wvtdrDHqueW7slsYv4gArie056phvQFhT2nRcGS4bnm6mA==}
+
+  babel-plugin-add-module-exports@1.0.4:
+    resolution: {integrity: sha512-g+8yxHUZ60RcyaUpfNzy56OtWW+x9cyEe9j+CranqLiqbju2yf/Cy6ZtYK40EZxtrdHllzlVZgLmcOUCTlJ7Jg==}
 
   babel-plugin-minify-builtins@0.5.0:
     resolution: {integrity: sha512-wpqbN7Ov5hsNwGdzuzvFcjgRlzbIeVv1gMIlICbPj0xkexnfoIDe7q+AZHMkQmAE/F9R5jkrB6TLfTegImlXag==}
@@ -4210,6 +4216,8 @@ snapshots:
   babel-helper-remove-or-void@0.4.3: {}
 
   babel-helper-to-multiple-sequence-expressions@0.5.0: {}
+
+  babel-plugin-add-module-exports@1.0.4: {}
 
   babel-plugin-minify-builtins@0.5.0: {}
 
